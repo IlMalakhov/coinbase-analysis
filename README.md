@@ -10,12 +10,12 @@ Main illistrations are on:
 
 ## Contents
 
-| Folder/File | Description |
-|-------------|-------------|
-| `/` | All .py files are in the root |
-| `/output`  | PNG exports of key graphs |
-| `/regulation`  | PNG exports of regulations Mermaid diagrams |
-| `README.md` | This file |
+| Folder/File   | Description                                 |
+| ------------- | ------------------------------------------- |
+| `/scripts`    | All .py files                               |
+| `/output`     | PNG exports of key graphs                   |
+| `/regulation` | PNG exports of regulations Mermaid diagrams |
+| `README.md`   | This file                                   |
 
 ## Tools Used
 

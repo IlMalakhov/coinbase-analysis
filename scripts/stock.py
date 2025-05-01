@@ -57,5 +57,5 @@ fig.update_yaxes(
     zeroline=False
 )
 
-fig.write_image("output/stock_drop.png", scale=1)
+fig.write_image("../output/stock_drop.png", scale=1)
 fig.show()

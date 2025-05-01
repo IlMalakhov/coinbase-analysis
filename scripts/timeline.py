@@ -56,7 +56,7 @@ for year, y, text in zip(df['Year'], df['y'], df['Event']):
         x=year, y=y,
         text=text,
         showarrow=False,
-        font=dict(color='#FAFAFA', size=46, family='Courier New', weight='bold'),
+        font=dict(color='#FAFAFA', size=42, family='Helvetica'),
         xanchor='center',
         yanchor='bottom' if y > 0 else 'top'
     )
@@ -78,6 +78,6 @@ fig.update_layout(
 )
 
 # uncomment to export as png
-fig.write_image("output/coinbase_timeline_highres.png", scale=1)
+fig.write_image("../output/coinbase_timeline_highres.png", scale=1)
 
 fig.show()

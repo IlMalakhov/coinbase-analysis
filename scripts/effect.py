@@ -63,6 +63,6 @@ fig.update_layout(
     
 )
 
-fig.write_image("output/coinbase_performance_dark.png", scale=3)
+fig.write_image("../output/coinbase_performance_dark.png", scale=3)
 
 fig.show()

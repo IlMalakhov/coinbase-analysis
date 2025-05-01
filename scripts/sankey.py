@@ -82,7 +82,6 @@ fig.update_layout(
     height=1200
 )
 
-# uncomment to export as png
-# fig.write_image("output/sankey_highres.png")
+fig.write_image("../output/sankey_highres.png")
 
 fig.show()
